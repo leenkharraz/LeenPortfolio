@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leen's Clubs</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="clubs.css">
+</head>
+
+<body>
+
+  <div class="page-container">
+
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="leenLogo.png" alt="Leen Logo">
+      </a>
+
+      <nav class="navbar" id="navbar">
+        <a href="index.html">Home</a>
+        <a href="motorsports.html">Motorsports</a>
+        <a href="clubs.html" class="active">Clubs</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+
+      <div class="menu-icon" id="menu-btn">
+        <i class='bx bx-menu'></i>
+      </div>
+    </header>
+
+    <section class="clubs-hero">
+      <h1>University Clubs</h1>
+      <p>
+        An active member and leader across multiple technical and student clubs.
+        I contribute to organizing workshops coordinating teams and managing projects
+        within the university community.
+      </p>
+    </section>
+
+    <section class="clubs-section">
+      <div class="clubs-grid">
+
+        <!-- Drone Club -->
+        <article class="club-card">
+          <div class="club-gallery">
+            <img src="droneClub.png" alt="Drone Club Logo" class="main-photo">
+          </div>
+
+          <h2>Drone Club</h2>
+          <h3>Leader – Project Management Committee</h3>
+          <p>
+            Lead and mentor committee members organize workshops and ensure
+            high quality execution of club workshops and bootcamps.
+          </p>
+
+          <div class="club-tags">
+            <span>Leadership</span>
+            <span>Workshop Management</span>
+            <span>Team Coordination</span>
+          </div>
+        </article>
+
+        <!-- GDG -->
+        <article class="club-card">
+          <div class="club-gallery">
+            <img src="gdg.png" alt="GDG Logo" class="main-photo">
+          </div>
+
+          <h2>Google Developer Group</h2>
+          <h3>Project Management Coordinator</h3>
+          <p>
+            Plan and organize workshops from A to Z create schedules and timelines
+            and coordinate teams to ensure smooth event execution.
+          </p>
+
+          <div class="club-tags">
+            <span>Project Management</span>
+            <span>Planning</span>
+            <span>Technical Events</span>
+          </div>
+        </article>
+
+        <!-- AI Club -->
+        <article class="club-card">
+          <div class="club-gallery">
+            <img src="aiClub.png" alt="AI Club Logo" class="main-photo">
+          </div>
+
+          <h2>Artificial Intelligence Club</h2>
+          <h3>Co Leader – Project Management Committee</h3>
+          <p>
+            Support planning of AI workshops coordinate tasks and help track progress
+            for technical learning activities and projects.
+          </p>
+
+          <div class="club-tags">
+            <span>AI Community</span>
+            <span>Planning</span>
+            <span>Team Leadership</span>
+          </div>
+        </article>
+
+        <!-- Games & VR -->
+        <article class="club-card">
+          <div class="club-gallery">
+            <img src="vrClub.png" alt="Games and VR Club Logo" class="main-photo">
+          </div>
+
+          <h2>Games & Virtual Reality Club</h2>
+          <h3>Project Management Member</h3>
+          <p>
+            Assist with organizing schedules tracking tasks and supporting the execution
+            of workshops and activities within the club.
+          </p>
+
+          <div class="club-tags">
+            <span>Event Planning</span>
+            <span>Coordination</span>
+          </div>
+        </article>
+
+        <!-- Cybersecurity Club -->
+        <article class="club-card">
+          <div class="club-gallery">
+            <img src="csClub.png" alt="Cybersecurity Club Logo" class="main-photo">
+          </div>
+
+          <h2>Cybersecurity Club</h2>
+          <h3>Public Relations Member</h3>
+          <p>
+            Coordinate communication with external guests and support event organization
+            and hospitality arrangements.
+          </p>
+
+          <div class="club-tags">
+            <span>Communication</span>
+            <span>PR</span>
+          </div>
+        </article>
+
+        <!-- Bashosh -->
+        <article class="club-card">
+          <div class="club-gallery">
+            <img src="babshosh.png" alt="Bashosh Team Logo" class="main-photo">
+          </div>
+
+          <h2>Bashosh Volunteer Team</h2>
+          <h3>Vice Team Leader</h3>
+          <p>
+            Oversee departments supervise event execution manage recruitment processes
+            and support leadership decisions across the organization.
+          </p>
+
+          <div class="club-tags">
+            <span>Leadership</span>
+            <span>Operations</span>
+            <span>Volunteer Management</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="footer-social">
+      <a href="https://github.com/leenkharraz" target="_blank" aria-label="GitHub">
+        <i class='bx bxl-github'></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/leen-kharraz-a57869280" target="_blank" aria-label="LinkedIn">
+        <i class='bx bxl-linkedin-square'></i>
+      </a>
+
+      <a href="https://x.com/leenkh7" target="_blank" aria-label="X">
+        <i class="fa-brands fa-x-twitter"></i>
+      </a>
+    </div>
+
+  </div>
+
+  <div class="footer-rights">
+    <p>&copy; 2026 Leen Kharraz. All rights reserved.</p>
+  </div>
+
+  <script>
+    const menuBtn = document.getElementById("menu-btn");
+    const navbar = document.getElementById("navbar");
+
+    menuBtn.addEventListener("click", () => {
+      navbar.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>
